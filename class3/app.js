@@ -33,6 +33,7 @@
 
 // console.log(filePath);
 
+//it will create only file isnide anually created folder
 // const fs = require("fs");
 // const path = require("path");
 
@@ -42,11 +43,12 @@
 
 // console.log("File created");
 
+
 //create folder and file 
 const fs = require("fs");
 const path = require("path");
 
-const dataFolder = path.join(__dirname, "daata");
+const dataFolder = path.join(__dirname, "rajkumar");
 
 fs.mkdirSync(dataFolder, { recursive: true });
 

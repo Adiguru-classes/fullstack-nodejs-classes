@@ -1,3 +1,4 @@
+// const os =require("os")
 console.log("Hello Node");
 
 
@@ -12,7 +13,7 @@ const age = 30;
 console.log(name);
 console.log(age);
 
-const os = require("-");
+const os = require("os");
 
 console.log(os.platform());//What operating system platform is this computer using
 console.log(os.arch());//What CPU architecture is Node.js running on
