@@ -7,11 +7,6 @@ app.use(express.json());
 
 
 // Temporary data stored in server memory
-const students = [
-    { id: 1, name: "Ravi", age: 21, course: "Java" },
-    { id: 2, name: "Kiran", age: 23, course: "MERN" }
-];
-
 
 // GET all students
 app.get("/students", (req, res) => {

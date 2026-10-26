@@ -1,8 +1,8 @@
 
 const express = require("express");
 const cors = require("cors");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
+// const bcrypt = require("bcryptjs");
+// const jwt = require("jsonwebtoken");
 
 const app = express();
 
@@ -12,7 +12,7 @@ app.use(express.json());
 // Temporary storage — MongoDB will replace this later.
 const users = [];
 
-const JWT_SECRET = "demo-secret-change-before-production";
+// const JWT_SECRET = "demo-secret-change-before-production";
 
 // Signup
 app.post("/api/signup", async (req, res) => {
@@ -115,5 +115,5 @@ app.post("/api/login", async (req, res) => {
 });
 
 app.listen(5000, () => {
-  console.log("Backend running at http://localhost:5000");
+  console.log("Backend running at http://localhost:5000[");
 });
